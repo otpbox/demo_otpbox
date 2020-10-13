@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO OTPBOX</title>
+
+</head>
+<body>
+
+<div>The system sets a phone number</div>
+<script>
+
+</script>
+<!-- embed OTPBox script here -->
+<script type='text/javascript' charset='UTF-8' src="https://box.otpbox.vn/load/bundle.js?secretKey=6208eeaf9214ae7850f0b81adb63dc1d05a994ca0548e8f31623886cf1be2a99"></script><script type='text/javascript'>
+    window.onload = function(){
+      var phoneNumber = "090312312x"; // change by your phone
+      __otpboxFrame.run({
+          phoneNumber: phoneNumber,
+      });
+    }
+</script>
+</body>
+</html>
